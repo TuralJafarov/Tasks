@@ -1,0 +1,321 @@
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 5000px;
+}
+
+
+
+/* *Task1 css code */
+
+
+/* 
+section{
+    padding: 30px;
+}
+
+.crdlar{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  
+}
+
+
+.card{
+    margin-top: 50px;
+    width: 20rem;
+    position: relative;
+    border: none;  
+}
+
+.card .logo{
+    overflow: hidden;
+}
+
+.card .birinci{
+    transition: all 0.3s linear;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .btns{
+    padding: 2px 10px;
+    text-decoration: none;
+    background-color: #002347;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.card-body{
+    background:#f9f9ff;
+    border: none;
+    outline: none;
+}
+
+.card h5{
+    color: #002347;
+    transition: all 0.3s linear;
+}
+
+.card .mains{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card .mains .left-side{
+    display: flex;
+    align-items:  center;
+}
+
+.card .mains .left-side h6{
+    padding: 0px 7px;
+    color: #002347;
+  
+    
+}
+
+.card .mains .right-side a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #002347;
+    cursor: pointer;
+}
+
+.right-side a i{
+    padding: 0px 5px;
+}
+
+.owl-nav{
+    display: none;
+}
+
+
+
+.card span{
+    border: 1px solid #fdc632;
+    border-radius: 100%;
+    padding: 15px;
+    color: #002347;
+    font-size: 18px;
+    line-height: 24px;
+    position: absolute;
+    top: 44%;
+    right: 3%;
+    background: #fdc632;
+    transition: all 0.3s linear;
+}
+
+.card:hover .card-body{
+    background: #fff;
+}
+
+.card:hover h5{
+    color: #fdc632;
+}
+
+.card:hover .birinci{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.card:hover span{
+    background: #002347;
+    color: #fdc632;
+    cursor: pointer;
+    border-color: #002347;
+} */
+
+/* *Task1 css code */
+
+
+
+
+
+
+
+/* *Task2 css code */
+
+.wine-title{
+    background-image: url(../image/wine-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+ 
+}
+
+.wine-title .wine-text{
+   background: rgba(0, 0, 0, 0.562);
+   text-align: center;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   clip-path: polygon(30% 0, 93% 0, 75% 100%, 14% 100%);
+}
+
+.wine-text h1{
+    color: #f01737;
+    padding: 10px 0px;
+}
+
+.wine-text p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+
+.wine-text button{
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #222;
+}
+
+.wine-text .frst{
+    height: 50px;
+}
+
+
+@media(max-width:576px){
+    .wine-title .wine-text{
+        clip-path: polygon(8% 0%, 95% 0, 95% 100%, 8% 100%);
+    }
+     .wine-text h1{
+        color: rgb(194, 24, 24);
+        padding: 10px 20px;
+        font-size: 28px;
+        width: 75%;
+       
+    }
+
+}
+
+
+/* *Task2 css code */
+
+
+
+
+
+
+
+/* *Task3 css code */
+
+.grid-container{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+}
+
+
+.grid-container .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item{
+    position: relative;
+  
+}
+
+.item-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ab0f268d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    opacity: 0; 
+    transition: all 0.3s linear; 
+  }
+  
+  .item:hover .item-box {
+    opacity: 1; 
+    cursor: pointer;
+  }
+ 
+
+
+.box-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    top: 35%;
+    left:35%;
+}
+
+.item-box h4{
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.item-box p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.item-box a{
+    text-decoration: none;
+    color:#222 ;
+    border: 1px solid black;
+    background: #fff;
+    border-radius: 3px;
+    padding: 8px;
+    transition: all 0.3s linear;
+
+}
+
+.item-box a:hover{
+    background: wheat;
+    cursor: pointer;
+}
+
+
+@media (max-width: 576px) {
+    .grid-container {
+        gap: 10px;
+      grid-template-columns: auto;
+    }
+  }
+ 
+
+
+/* *Task3 css code */
