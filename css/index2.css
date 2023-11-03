@@ -63,6 +63,7 @@ nav button{
     background: teal;
     color: #fff;
     cursor: pointer;
+    
 }
 
 
@@ -107,11 +108,15 @@ nav button{
 
 .right-side{
     margin-left: 20%;
+    cursor: pointer;
 }
 
 .fa-bars{
     display: none;
 }
+
+
+
 
 
 
@@ -540,10 +545,260 @@ nav button{
  @media(max-width:576px){
 
     .section-about .inner{
-        margin-bottom: 25px;
+        margin-bottom: 70px;
     }
 
     .section-about .inner p{
         width: 100%;
     }
+
+    .section-about .ikinci::after{
+        content: "";
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        right: 0%;
+        top: 50%;
+        z-index: -1;
+        background: rgba(15, 183, 141, 0.2);
+     }
  }
+
+ 
+/* section-about css code */
+
+
+
+
+
+
+
+/* section-news css code */
+
+.section-news{
+    margin-top: 100px;
+    padding: 100px 0;
+    background: #f8f9fa;
+}
+
+.section-news .inner{
+    overflow: hidden;
+   
+}
+
+
+.section-news .logo{
+    transition: all 0.3s linear;
+}
+
+
+.section-news .text-news{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-top: 20px; */
+    margin-bottom: 20px;
+}
+
+
+.section-news .text-news h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0fb78d;
+    font-weight: 500;
+    position: relative;
+    max-width: 576px;
+ 
+}
+
+
+.section-news .text-news h2::after{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 3px;
+    background: #ec661f;
+    bottom: -4%;
+    left: 39%;
+}
+
+
+
+.section-news .text-news .texts{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 15px 0px;
+    width: 50%;
+}
+
+
+.inner .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  
+}
+
+.inner .logo:hover{
+    transform: scale(1.2);
+}
+
+
+.section-news span{
+    padding: 0px 7px;
+    color: #ccc;
+}
+
+.section-news .inner h3{
+    color: #0fb78d;
+    font-size: 20px;
+}
+
+.section-news .inner span{
+    padding: 8px 0;
+}
+.section-news .inner p{
+    text-align: justify;
+}
+
+/* section-news css code */
+
+
+
+
+
+
+/* section-pricing css code */
+
+
+.section-pricing{
+    padding-top: 100px;
+}
+
+
+.section-pricing .text-pricing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.section-pricing .text-pricing h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0fb78d;
+    font-weight: 500;
+    position: relative;
+    max-width: 576px;
+ 
+}
+
+
+.section-pricing .text-pricing h2::after{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 3px;
+    background: #ec661f;
+    bottom: -4%;
+    left: 39%;
+}
+
+
+
+.section-pricing .text-pricing .texts{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 15px 0px;
+    width: 50%;
+}
+
+.section-pricing .inner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 450px;
+    width: 350px;
+    padding: 15px;
+    transition: all .3s linear;
+}
+
+
+.section-pricing .inner:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+
+.section-pricing .inner h3{
+    font-size:24px;
+    line-height: 30px;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.section-pricing .inner  p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+}
+
+ .section-pricing .inner .money-box span:first-child{
+    font-size: 30px;
+}
+
+.section-pricing .inner a{
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid #0fb78d;
+    color: #0fb78d;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius:30px ;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+
+.section-pricing .inner a:hover{
+    background: #0fb78d;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+.section-pricing .inner .active{
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid #0fb78d;
+    background: #0fb78d;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius:30px ;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+
+
+
+@media(max-width:576px){
+    .section-pricing .inner{
+        margin-bottom: 20px;
+    }
+}
+
+/* section-pricing css code */
