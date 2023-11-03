@@ -839,8 +839,8 @@ nav button{
     color: #0fb78d;
 }
 
-.section-testimon .inner p{
-    width: 60%;
+.section-testimon .inner .inse{
+  text-align: justify;
 }
 
 .section-testimon h3{
@@ -886,6 +886,8 @@ nav button{
         display: flex;
         flex-direction: column;
     }
+ 
+ 
 
 
 }
