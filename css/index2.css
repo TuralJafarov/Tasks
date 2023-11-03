@@ -201,8 +201,12 @@ nav button{
         width: 100%;
         padding: 8px 25px;
         width: 100%;
-        
     }
+
+    .first-r{
+        margin-top: 30px;
+    }
+    
 }
 
 /* section-play css code */
@@ -797,8 +801,91 @@ nav button{
 
 @media(max-width:576px){
     .section-pricing .inner{
-        margin-bottom: 20px;
+        margin: 20px auto;
     }
 }
 
 /* section-pricing css code */
+
+
+
+
+
+
+/* section-testimon css code */
+
+.section-testimon{
+    padding-top: 100px;
+}
+
+
+.section-testimon .inner{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    position: relative;
+}
+
+.section-testimon .inner img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.section-testimon .inner h5{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #0fb78d;
+}
+
+.section-testimon .inner p{
+    width: 60%;
+}
+
+.section-testimon h3{
+    position: relative;
+    padding-top: 8px;
+    color: #0fb78d;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight:500;
+}
+
+.section-testimon .inner h3:after{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 3px;
+    background: #ec661f;
+    bottom: -10%;
+    left: 0%;
+
+}
+
+
+.section-testimon .inner .stamps{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-testimon .inner .stamps i{
+    padding: 0px 10px;
+}
+
+.section-testimon .inner .stamps p{
+    text-transform: uppercase;
+    color: #333;
+}
+
+
+
+@media(max-wdith:576px){
+
+    .section-testimon .inner .stamps{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
