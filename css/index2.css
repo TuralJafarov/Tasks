@@ -451,7 +451,20 @@ nav button{
     font-size: 30px;
     line-height: 40px;
     font-weight: 400;
+    position: relative;
 }
+
+
+.section-about .inner h3::after{
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 3px;
+    background: #ec661f;
+    bottom: -4%;
+    left: 0%;
+}
+
 
 
 .section-about .inner p{
