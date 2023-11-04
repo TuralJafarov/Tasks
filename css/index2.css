@@ -13,9 +13,6 @@
 }
 
 
-body{
-    height: 5000px;
-}
 
 header{
     background-image: url(../image/nurture-img.jpg);
@@ -886,8 +883,178 @@ nav button{
         display: flex;
         flex-direction: column;
     }
- 
- 
 
+}
+
+/* section-testimon css code */
+
+
+
+
+
+
+
+
+/* footer css code */
+
+footer{
+   padding: 15px 0;
+    background: #0fb78d;
+}
+
+
+footer ul li  img{
+    width: 72px;
+    height: 72px;
+}
+
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.footer-box .box{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box .box h3{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-box .box p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-box .box .second-ul a{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+.second-ul h3{
+    margin-left: 8px;
+}
+
+.footer-box .box{
+    margin: 0px 10px;
+    width: 80%;
+    
+}
+
+
+.footer-box .box .first-ul{
+    margin-top: 15px;
+    display: flex;
+    list-style: none;
+    margin-left: -40px;
+}
+.footer-box .box .first-ul li a{
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 0px 8px;
+    margin-left: 7px;
+    border-radius: 100%;
+}
+
+
+
+.footer-box .box .img-box{
+    width: 90%;
+    margin-top: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:0px;
+}
+
+
+.footer-box .box .img-box li{
+    margin-left: 7px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+
+.footer-box .box .four-ul{
+    padding: 0px;
+}
+
+
+footer .bottomF{
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+
+@media(max-width:576px){
+ 
+ footer .container{
+        width: 100%;
+    }
+
+    .footer-box{
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-box .box{
+        border: 1px solid red;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-bottom: 25px;
+        padding: 0px 8px;
+    }
+
+
+    .footer-box .box .box-p{
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .footer-box .box p{
+        padding: 0;
+        margin: 0 ;
+    }
+
+    .footer-box .box ul{
+        padding: 0px;
+    }
+
+
+    .footer-box .box .first-ul{
+        margin: 0px;
+    } 
+
+
+    .footer-box .box .connect{
+        padding: 20px 0;
+    }
+   
+    
+.footer-box .box .img-box{
+    width: 60%;
+    margin-top: 0px;
+    display: flex;
+    padding:0px;
+}
 
 }
